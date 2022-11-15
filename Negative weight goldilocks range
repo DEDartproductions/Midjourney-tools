@@ -1,0 +1,8 @@
+number_of_inputs = int(input("How many positive weights: "))
+
+sum = 0
+for x in range(number_of_inputs):
+    sum += float(input("Enter Weight: "))
+
+print("Total positive weight:", sum)  # print out the sum after completing
+print("Negative weight goldilocks range: ", sum*-0.25, "through", sum*-0.45)
